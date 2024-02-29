@@ -1,5 +1,5 @@
 #create a resource group
-resource "Azurerm_resource_group" "dev-rg" {
+resource "azurerm_resource_group" "dev-rg" {
   
 name = var.resource_group_name
 location = var.location
